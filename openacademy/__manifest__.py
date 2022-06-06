@@ -26,16 +26,19 @@
     'data': [
         'security/ir.model.access.csv',
         'security/security.xml',
+        'views/openacademy_menu.xml',
         'views/course_views.xml',
-        'views/partner.xml',
+        'views/partner_views.xml',
+        'views/session_views.xml',
+        'wizards/session_wizard_views.xml',
         'views/templates.xml',
-        'reports/board.xml',
-        'reports/report.xml'
+        'reports/session_board.xml',
+        'reports/session_report.xml'
 
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo/demo.xml',
+        'demo/course_demo.xml',
     ],
     'installable': True,
     'application': True,

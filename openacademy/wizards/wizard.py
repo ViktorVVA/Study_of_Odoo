@@ -1,7 +1,7 @@
 from odoo import models,fields,api
 
 class Wizard(models.TransientModel):
-    _name = 'openacademy.wizard'
+    _name = 'openacademy.wizards.wizard'
     _description = "Wizard: Qiuck Regisration of Attendees to Sessions"
 
     # def _default_session(self):

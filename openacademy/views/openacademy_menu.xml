@@ -1,0 +1,4 @@
+<odoo>
+           <!-- Top menu item -->
+    <menuitem id="openacademy_menu_root" name="Open Academy" />
+</odoo>
